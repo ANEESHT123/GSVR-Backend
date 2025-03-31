@@ -17,7 +17,7 @@ const sendMessage = async (req, res) => {
 
     // Send email to business team
     await sendMail({
-      from: "info@gsvrtalent.com",
+      from: "careers@gsvrtalent.com",
       to: "info@gsvrtalent.com",
       subject: `📩 New Business Inquiry: ${service}`,
       html: `

@@ -19,7 +19,7 @@ const applyJob = async (req, res) => {
 
     // Email to company
     await sendMail({
-      from: "gsvrtalent@gmail.com",
+      from: "careers@gsvrtalent.com",
       to: "info@gsvrtalent.com",
       subject: `📩 New Job Application Received - ${fullName}`,
       html: `
